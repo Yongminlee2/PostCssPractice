@@ -123,16 +123,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-header h1{
-    font-size: 50px;
-}
-
-header .header_column:nth-child(2){
-    display: flex;
-    justify-content: space-around;
-}
