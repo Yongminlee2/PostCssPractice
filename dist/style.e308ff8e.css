@@ -1,0 +1,42 @@
+.main{
+    background-color: pink
+}
+
+.main div{
+        background-color: blue;
+        color:red
+    }
+
+.main div .ul{
+            background-color: red;
+            color:blue
+        }
+
+.main div .ul li{
+                background-color: yellow;
+                color:green
+            }
+
+.main div .ul li span{
+                    background-color: green;
+                    color:yellow
+                }
+
+.main div .ul li span .a1{
+                        background-color: black;
+                        color:white;
+                    }
+
+.main div .ul li span .a2{
+                        background-color: black;
+                        color:blue;
+                    }
+
+.main div .ul li span .a3{
+                        background-color: black;
+                        color:tomato;
+                    }
+
+.main div{
+    background-color: brown;
+}
