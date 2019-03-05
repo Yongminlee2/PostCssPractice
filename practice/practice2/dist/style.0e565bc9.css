@@ -1,0 +1,237 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}header{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left : 20px;
+    margin-right : 20px;
+    padding-bottom : 20px;
+
+}
+
+header > .header_top{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom : 40px;
+}
+
+header > .header_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+header > .header_bottom > .header_foods{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.3;
+}
+
+.header_foods >.header_food{
+    border : 1px solid gray;
+    border-radius: 50%;
+    padding : 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.header_foods >.header_food_title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+header > .header_bottom > .header_foods:hover{
+    opacity: 1;
+    cursor: pointer;
+}.main{
+    border-top: 1px solid rgba(0,0,0,10%);
+}
+.main .main_top{
+    margin: 20px 30px;
+}
+.main .main_top .main_top_title{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+
+.main .main_top .main_top_columns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow-x: scroll;
+    grid-gap: 40px;
+}
+
+.main_top_column {
+    border-radius: 7%;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.main_top_column:nth-child(1){
+    background-image: url(1.dc197a9a.jpg);
+}
+.main_top_column:nth-child(2){
+    background-image: url(2.3ca6bb44.jpg);
+}
+.main_top_column:nth-child(3){
+    background-image: url(3.a433b89d.jpg);
+}
+.main_top_column:nth-child(4){
+    background-image: url(4.c6d96be5.jpg);
+}
+
+.main_menu{
+    display: flex;
+    padding-top: 170px;
+    align-items: center;
+    justify-content: space-around;
+    height: 180px;
+}
+
+
+.main_menu .main_box{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main_menu .main_title{
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
