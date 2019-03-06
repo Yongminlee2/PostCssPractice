@@ -1,0 +1,10 @@
+@import '../CSS/reset.css';
+@import '../CSS/main.css';
+@import '../CSS/header.css';
+@import '../CSS/nav.css';
+@import '../CSS/footer.css';
+
+body{
+    padding: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,25 @@
+.nav{
+
+}
+.nav .nav_top{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.nav_bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom : 1px solid gray;
+    border-top : 1px solid gray;
+}
+
+.nav_bottom .nav_bottom-text{
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav_bottom .nav_bottom-text:first-child{
+    border-right: 1px solid gray;
+}

@@ -1,0 +1,30 @@
+.main .main_top{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.main .main_top .main_top-column:first-child{
+    font-size: 40px;
+}
+
+.main .main_top .main_top-column:nth-child(2){
+    font-size: 25px;
+    font-style: italic;
+}
+.main .main_top .main_top-column:last-child > span{
+    display: inline-block;
+    border:1px solid black;
+    padding:15px 60px;
+}
+.main .main_grids{
+    margin-top: 15px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:400px;
+    grid-gap: 5px;
+}
+.main .main_grids .main_grid{
+    background-color:skyblue;
+}

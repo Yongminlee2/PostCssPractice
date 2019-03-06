@@ -1,0 +1,17 @@
+.header{
+    text-align: center;
+}
+.header .header_top{
+    border-bottom: 1px solid gray;
+    padding-bottom:10px;
+}
+.header .header_top span{
+    display: block;
+}
+.header_bottom{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    word-wrap: 120px;
+    letter-spacing: 20px;
+}
