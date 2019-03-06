@@ -1,0 +1,6 @@
+@import "../CSS/reset.css";
+@import "../CSS/main.css";
+
+body{
+    padding:10px;
+}
