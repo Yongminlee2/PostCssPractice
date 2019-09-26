@@ -1,0 +1,190 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* reset css↑ */
+
+
+body, h1, h2, h3, h4, h5, h6, p, ul, figure, figcaption{margin: 0;padding: 0}
+html, body{height: 100%;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px;color: #333;line-height: 1;}
+h1, h2, h3, h4, h5, h6{font-size: 100%}
+ul{list-style: none;}
+a:link, a:visited, a:hover, a:active{text-decoration: none;color: inherit}
+hr{border-color: #eeeeee; margin-top: 3vw;}
+img{border: none; display: block; max-width: 100%; vertical-align: top;}
+address{font-style: normal}
+header, nav, section, article, footer, aside, figure, figcaption{display: block;}
+.clearfix:after { content: ""; display: block; clear: both; }
+#wrap{height: 100%;}
+#header {height: 70px; padding: 10px 0; background: #ffadad; }
+#header .logo { width: 70px; height: 70px; border-radius: 50%; background: #fff; margin: 0 auto; }
+.logo img { width: 58px; padding: 17px 0 0 8px; }
+
+#subnav { z-index: 1000; position: relative; width: 100%; height: 55px; background: #fff; box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.1); }
+#subnav.scolled { position: fixed; top: 0; left: 0; }
+#subnav.scolled + #content { padding-top: 90px; }
+#subnav .sub a img { width: 15px; margin: 14px 0 0 15px; }
+#subnav img { width: 40px; margin: 7px 0 0 10px; float: left; }
+#subnav .sub h2 { position: absolute; top: 50%; left: 128px; transform: translate(-50%, -50%); font-size: 22px; font-weight: 700; }
+
+/* #content{position:relative;min-height: 100%;padding: 90px 0 70px 0;box-sizing: border-box}나머지 서브 페이지 크기 */
+#content { position:relative; transition: padding-top 0.5s; padding-bottom: 70px; top: 100px; padding: 0vw 2vw; margin-bottom: 20%;}
+
+#nav { position: fixed; left: 0; bottom: 0; width: 100%; height: 70px; background: #fff; box-shadow: 0px 2px 18px 2px rgba(0, 0, 0, 0.15); }
+#nav div { text-align: center; position: relative; float: left; width: 25%; height: 70px; border-left: 1px solid #ccc; box-sizing: border-box; }
+#nav div img { width: 35px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-80%); }
+#nav div.review img { width: 33px; transform: translate(-50%,-70%); }
+#nav a div span { font-size: 14px; font-weight: 500; position: absolute; left: 50%; top: 70%; transform: translate(-50%,-0%); color: #393939; }
+#header { position: fixed; left: 0; top: 0; width: 100%; height: 90px; z-index: 1000; }
+#header .logo img { width: 65px; }
+
+.cafe_status_name i{ color:pink; font-size: 8vw;}
+.cafe_status_name span {font-weight: 600; font-size: 4vw;position: absolute;top: 1.8vw;}
+.cafe_status_name img,.cafe_status_map img {padding: 1vw 1.5vw; width: 100%;}
+.cafe_status_map span {padding: 2vw 1.5vw 1vw 1.5vw; font-weight: 600; font-size: 2.3vw; display: inline-block;}
+.cafe_status_map div {float: right; font-size: 1.5vw; padding-right: 1.5vw;}
+.cafe_title {padding: 2vw 1.5vw 1vw 1.5vw; font-weight: 600; font-size: 3vw;}
+.cafe_convenience_contents{ display:flex; padding: 1vw 2vw; justify-content: space-between;}
+.cafe_convenience_contents .cafe_convenience_content {display:flex; flex-direction: column; font-size: 1.8vw; font-weight: 600;}
+.cafe_convenience_contents .cafe_convenience_content span{margin-bottom: 1vw;}
+.cafe_convenience_contents .cafe_convenience_icon {display:flex; align-self : flex-end; justify-content: space-around; width: 40%; font-size: 4vw;}
+.cafe_menu .cafe_menu_imgs{display:flex; justify-content: space-around; margin-top:1.5vw;}
+.cafe_menu .cafe_menu_imgs img {width: 30%;}
+.more {float: right; font-size: 2vw; font-weight: 600; margin: 1vw; cursor: pointer;}
+.cafe_review_contents{display: flex; margin: 3vw 2vw 2vw 4vw;}
+.cafe_review_content{display: flex; justify-content: space-between; width: 100%;}
+.cafe_review_nic{display:flex; flex-direction: column;}
+.cafe_review_nic img{width: 9vw;}
+.cafe_review_nic span{font-size: 3vw; margin-top: 1vw; font-weight: 600;}
+.cafe_review_img{width:26%;}
+.cafe_review_img img{width:100%; border: 2px solid black; padding:1px;} 
+.cafe_review_text{font-size: 1.6vw; width: 50%; line-height: 1.4;} 
+.cafe_title2{padding: 2vw 1.5vw 1vw 1.5vw; font-weight: 600; font-size: 3vw; display: flex; justify-content: space-between;}
+.cafe_title_content img {display: inline-block; width: 4vw;}
+.cafe_title_content span {border: 2px solid #F26C69; border-radius: 5px; padding: 0.5vw 1.5vw; font-size: 2vw; font-weight: 600; box-shadow: 0vw 0.6vw 0.3vw 0vw grey;}
+
+
+/* #F26C69 */
